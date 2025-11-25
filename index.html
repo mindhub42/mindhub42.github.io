@@ -3,35 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AWS Cloud Practitioner Practice Tests – Resources</title>
+  <title>AWS Practice Test Books – Resources</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      line-height: 1.6;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
     }
-    h1, h2 {
+
+    header {
+      background: #37424b;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .book-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      padding: 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      align-items: flex-start;
+    }
+
+    .book-card img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .book-content h2 {
+      margin-top: 0;
       color: #2c3e50;
     }
-    a {
+
+    .book-content a {
       color: #1a73e8;
+      text-decoration: none;
+    }
+
+    .book-content a:hover {
+      text-decoration: underline;
+    }
+
+    .section-title {
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
+      font-weight: bold;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>Resources for the AWS Certified Cloud Practitioner Practice Tests</h1>
-  <p><strong>Based on the book:</strong> <em>AWS Cloud Practitioner Practice Tests</em><br>
-  <strong>Author:</strong> Yulia Neitzel</p>
+<header>
+  <h1>AWS Practice Test Books – Resources</h1>
+  <p>by Yulia Neitzel</p>
+</header>
 
-  <h2>Updates</h2>
-  <p>There are no updates at this time.</p>
+<div class="container">
 
-  <h2>Errata</h2>
-  <p>All errata can be found <a href="https://github.com/mindhub42/aws_cloud_practitioner_practice_tests/issues">here</a>.</p>
-  <p>To report errata, please <a href="https://github.com/mindhub42/aws_cloud_practitioner_practice_tests/issues/new?template=errata-report.md&title=[AWS][Practice%20Tests][Errata]">create an issue here</a>.</p>  
+  <!-- ============================= -->
+  <!-- Book 1 -->
+  <!-- ============================= -->
+  <div class="book-card">
+    <img src="https://github.com/mindhub42/aws_cloud_practitioner_practice_tests/blob/main/cover.jpg?raw=true" alt="Cloud Practitioner Book Cover">
+
+    <div class="book-content">
+      <h2>AWS Cloud Practitioner Practice Tests</h2>
+      <p>
+        <strong>Repository:</strong><br>
+        <a href="https://github.com/mindhub42/aws_cloud_practitioner_practice_tests">
+          github.com/mindhub42/aws_cloud_practitioner_practice_tests
+        </a>
+      </p>
+
+      <p class="section-title">Updates</p>
+      <p>There are no updates at this time.</p>
+
+      <p class="section-title">Errata</p>
+      <p>
+        View errata:
+        <a href="https://github.com/mindhub42/aws_cloud_practitioner_practice_tests/issues">
+          Issue tracker
+        </a>
+      </p>
+      <p>
+        Report an issue:
+        <a href="https://github.com/mindhub42/aws_cloud_practitioner_practice_tests/issues/new?template=errata-report.md&title=[AWS][Practice%20Tests][Errata]">
+          Submit errata
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- ============================= -->
+  <!-- Book 2 -->
+  <!-- ============================= -->
+  <div class="book-card">
+    <img src="https://github.com/mindhub42/aws_solutions_architect_associate_practice_tests/blob/main/cover.jpg?raw=true" alt="SAA Book Cover">
+
+    <div class="book-content">
+      <h2>AWS Solutions Architect Associate SAA-C03 Practice Tests</h2>
+
+      <p>
+        <strong>Repository:</strong><br>
+        <a href="https://github.com/mindhub42/aws_solutions_architect_associate_practice_tests">
+          github.com/mindhub42/aws_solutions_architect_associate_practice_tests
+        </a>
+      </p>
+
+      <p class="section-title">Updates</p>
+      <p>Updates for this book will appear here once available.</p>
+
+      <p class="section-title">Errata</p>
+      <p>
+        View errata:
+        <a href="https://github.com/mindhub42/aws_solutions_architect_associate_practice_tests/issues">
+          Issue tracker
+        </a>
+      </p>
+      <p>
+        Report an issue:
+        <a href="https://github.com/mindhub42/aws_solutions_architect_associate_practice_tests/issues/new?template=errata-report.md&title=[AWS%20SAA][Practice%20Tests][Errata]">
+          Submit errata
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
 
 </body>
 </html>
